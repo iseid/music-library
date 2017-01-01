@@ -43,7 +43,6 @@ public class Library {
 				output.println(number + ": " +arrayTitles[i].toString());
 				cost += arrayTitles[i].getPrice();
 				number++;
-
 			}
 			
 			output.println("Number of Tracks: " + (number-1));
@@ -74,8 +73,7 @@ public class Library {
 					 System.out.println((i+1) + ": " + arrayTitles[i].toString());
 				 }
 			 }
-		 }
-		 
+		 } 
 	 }
 
 	public static void main(String[] args) {
@@ -95,8 +93,6 @@ public class Library {
 		System.out.println();
 		
 		sortTitles();
-		
-
 	}
 }
 
